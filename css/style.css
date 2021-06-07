@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*    font-family: 'Roboto', sans-serif;*/
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: #f8f9fa;
+}
+
+
+
+
+/*=========================Header menu topbar============================*/
+
+
+
+.tobbarWrraper {
+    overflow: hidden;
+    background: #07294d;
+  }
+  .container {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .email {
+    width: 184px;
+    float: left;
+    color: #c6c6c6;
+    padding: 15px 10px;
+    cursor: pointer;
+    font-family: Roboto;
+  }
+  .phone {
+    width: 528px;
+    float: left;
+    color: #c6c6c6;
+    padding: 15px 10px;
+    font-family: Roboto;
+  }
+  .social-icon {
+    width: 275px;
+    float: left;
+    color: #c6c6c6;
+    padding: 15px 10px;
+    font-family: Roboto;
+  }
+  .login-register {
+    width: 132px;
+    float: left;
+    color: orange;
+    padding: 15px 10px;
+  }
+  .social-icon span a {
+    color: white;
+    padding: 0px 8px;
+    transition: 0.4s;
+  }
+  .login-register a {
+    color: #ffc600;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: Roboto;
+  }
+  .login-register a:hover {
+    color: white;
+  }
+  .social-icon span a:hover {
+    color: #ffc600;
+  }
+
+.login-register span {
+    cursor: context-menu;
+    color: #ffc600;
+  }
+
+
+
+  /*=============X============Header menu topbar=============X===============*/
+
+
+  /*==========================Header menu Navbar==============================*/
+
+
+  .navbar-main {
+    overflow: hidden;
+  }
+  .logo {
+    width: 182px;
+    float: left;
+    padding: 20px 10px;
+    cursor: pointer;
+  }
+  .navbar-main ul li {
+    display: inline-block;
+    padding: 20px 13px;
+  }
+  .navbar-main ul li a {
+    font-size: 15px;
+    font-family: Roboto;
+    text-decoration: none;
+    font-weight: 500;
+    color: #07294d;
+    transition: 0.5s;
+  }
+  .navbar-main ul {
+    float: right;
+    padding: 20px 10px;
+  }
+
+  .navbar-main ul li a:hover {
+    color: #ffc600;
+  }
+
+
+
+
+
+  /*=============X=============Header menu Navbar==============X================*/
+
+
+
+  /*===========================Section menu======================================*/
+
+   .main-tp-bar{
+       background-image: url(/img/s-3.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   } 
+   
+.main-cnt-bar h1 {
+    font-size: 60px;
+    font-family: Montserrat;
+    color: #fff;
+    margin-top: 200px;
+    margin-bottom: 32px;
+  }
+
+
+  .main-cnt-bar p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 50px;
+  }
+
+
+.main-cnt-bar button {
+    border: none;
+    padding: 12px 40px;
+    background: #ffc600;
+    border-radius: 5px;
+    margin-bottom: 195px;
+    transition: 0.4s;
+  }
+  .main-cnt-bar button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .main-cnt-bar button:hover {
+    background: #07294d;
+  }
+  .main-cnt-bar button:hover a {
+    color: #ffc600;
+  }
+
+  /*=============X=============Section menu===================X===================*/
+
+  /*==========================s-three-main=======================================*/
+
+
+#s-three-main{
+  background-image: url(/img/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+
+.first-main-bar {
+    margin-top: 200px;
+  }
+
+  .upcoming-events{
+      
+      width: 595px;
+      float: left;
+  }
+ 
+.wellcome-to {
+    width: 595px;
+    float: left;
+    margin-bottom: 80px;
+  }
+  .about-us {
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: 600;
+  }
+  .desh {
+    content: "";
+    border: 1px solid #ffc600;
+    display: inline-block;
+    width: 37px;
+    margin-bottom: 7px;
+  }
+
+  .wellcome-to h1 {
+    font-size: 48px;
+    font-family: Montserrat;
+    color: #000;
+    margin-bottom: 33px;
+  }
+
+.wellcome-to p {
+    font-size: 18px;
+    color: #1b1a1a;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .p-tag-space {
+    margin-top: 57px;
+    margin-bottom: 85px;
+}
+.learn-more {
+    border: none;
+    padding: 14px 41px;
+    background: #ffc600;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+
+
+.learn-more a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #07294d;
+    font-weight: 400;
+  }
+  .learn-more:hover {
+    background: #07294d;
+  }
+  .learn-more:hover a {
+    color: #ffc600;
+  }
+
+  .upcoming-events {
+    background: rgba(255, 255, 255, 0.95);
+    overflow: hidden;
+    line-height: 30px;
+    margin-bottom: 41px;
+  }
+  .upcoming-f h2 {
+    font-size: 36px;
+    margin-left: 39px;
+    margin-top: 67px;
+    font-family: MOntserrat;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
+
+
+.upcoming-f p {
+    margin-left: 43px;
+    color: #8a8a8a;
+    margin-top: 19px;
+  }
+  .upcoming-f p i {
+    color: #ffc107;
+  }
+  .upcoming-f h3 {
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #000;
+    transition: 0.4s;
+  }
+  .upcoming-f h3:hover {
+    color: #ffc600;
+  }
+
+.desh-two {
+    content: "";
+    border: 1px solid #cecece;
+    width: 100%;
+    display: inline-block;
+    margin-left: 44px;
+  }
+
+  .Clock-s {
+    margin-bottom: 25px;
+  }
+
+  .card-one {
+    width: 595px;
+    float: left;
+    background: #07294d;
+  }
+  .card-one h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .card-one p {
+    color: #fff;
+    margin-left: 37px;
+    font-family: Roboto;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+
+.apply-card-btn {
+    margin-left: 38px;
+    border: none;
+    padding: 12px 46px;
+    background: #ffc600;
+    color: #9a5959;
+    border-radius: 10px;
+    margin-bottom: 34px;
+    transition: 0.4s;
+  }
+  .apply-card-btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+
+
+.apply-card-btn:hover {
+    background: #000f1f;
+  }
+  .apply-card-btn:hover a {
+    color: #ffc600;
+  }
+
+
+
+.card-two {
+    width: 595px;
+    float: left;
+    background-color: #092e56;
+  }
+  .card-two h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 23px;
+  }
+  
+  .card-two p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    line-height: 29px;
+  }
+
+
+.apply-card-btn-two {
+    margin-left: 35px;
+    border: none;
+    padding: 12px 46px;
+    border-radius: 10px;
+    background-color: #ffc600;
+    color: #07294d;
+    margin-bottom: 31px;
+    margin-top: 11px;
+    transition: 0.4s;
+  }
+  .apply-card-btn-two a {
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 500;
+  }
+
+.apply-card-btn-two:hover {
+    background: #000f1f;
+  }
+  .apply-card-btn-two:hover a {
+    color: #ffc600;
+  }
+  .apply-card-btn-two:hover {
+    border: 2px solid #ffc600aliceblue;
+  }
+  
+
+  /*=============X=============s-three-main===================X===================*/
+
+  .lorem{
+      margin-top: 200px;
+  }
